@@ -150,7 +150,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@mistry_sontu](https://twitter.com/mistry_sontu) - email@email_client.com
+Your Name - [@mistry_sontu](https://twitter.com/mistry_sontu) - mistrysontu@kgpian.iitkgp.ac.in
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/mistrysontu/MTP)
 
