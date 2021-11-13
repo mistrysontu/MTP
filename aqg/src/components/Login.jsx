@@ -21,10 +21,8 @@ export default function Login() {
     console.log(emails);
     let passwords = localStorage.getItem("passwords");
     //To be changed
-    if (
-      (emails === email && passwords === password) ||
-      (emails.includes(email) && passwords.includes(password))
-    ) {
+    // if(emails.includes(email) && passwords.includes(password))
+    if(emails === email && passwords === password) {
       localStorage.setItem("currEmail", email);
       localStorage.setItem("currPassword", password);
       var w = window.open("", "", "width=1000,height=100");

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import "../style.css";
-import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 // Function to question inside our app
 const QuestionBox = ({ question, options, selected }) => {
   const [answer, setAnswer] = useState(options);
