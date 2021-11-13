@@ -20,8 +20,6 @@ def post_Other_img():
 def run_script():
     return "Hello, World!"
     pass
-    # file = open(r'/path/to/your/file.py', 'r').read()
-    # return exec(file)
 
 if __name__ == "__main__":
     app.run(debug=True)

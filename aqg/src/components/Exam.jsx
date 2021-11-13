@@ -50,8 +50,8 @@ class Exam extends Component {
   
   render() {
     return (<div className="container">
-      <div className="title">
-        My Quiz
+      <div className="title text-center">
+        UML Quiz
         
       </div>
   

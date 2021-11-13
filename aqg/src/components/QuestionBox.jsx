@@ -1,31 +1,42 @@
 import React, { useState } from "react";
 // import "../style.css";
-
+import { Form, Button, Container, Row, Col } from "react-bootstrap";
 // Function to question inside our app
 const QuestionBox = ({ question, options, selected }) => {
   const [answer, setAnswer] = useState(options);
   const [ticked, setSelect] = useState(false);
-  console.log(answer);
+  // console.log(answer);
   return (
-    <div className="questionBox">
-      <div className="question">{question}</div>
-      {answer.map((text, index) => (
-        <button
-          key={index}
-          className="answerBtn"
-          onClick={(event) => {
-            event.preventDefault();
-            setAnswer(answer);
-            selected(text);
-            setSelect(true);
+    <Container>
+      <Row >
+        <Col
+          md="auto"
+          style={{
+            alignContent: "center",
+            padding: "20px 50px",
           }}
-          disabled={ticked}
         >
-          {" "}
-          {text}
-        </button>
-      ))}
-    </div>
+          <div className="questionBox">
+            <div className="question">{"Q: " + question}</div>
+            {answer.map((text, index) => (
+              <Button className="btn btn-secondary m-1"
+                key={index}
+                onClick={(event) => {
+                  event.preventDefault();
+                  setAnswer(answer);
+                  selected(text);
+                  setSelect(true);
+                }}
+                disabled={ticked}
+              >
+                {" "}
+                {text}
+              </Button>
+            ))}
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 import FormComp from "./FormComp";
 import { useNavigate } from "react-router-dom";
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
   let emails = ["mistrysontu@gmail.com", 'abc@yahoo.com']
   // let 
   localStorage.setItem("emails", emails);
+
   localStorage.setItem("passwords", ["12345678"]);
   localStorage.setItem("currEmail", null);
   localStorage.setItem("currPassword", null);
