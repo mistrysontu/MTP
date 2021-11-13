@@ -1,0 +1,20 @@
+Q1. Class AuditLog belongs to Which package? 
+  a. luxx.mq,    b. luxx.log.model,       c. luxx.mq.server,       d. None of the above
+
+Q2. There are ____ numbers of class in the Program.
+  a. 39, b. 46,   c. 44,   d. 45
+
+Q3. Class TriviaMultiServer belongs to Which package?
+  a. luxx.mq.server,     b. com.git.csi,  c. luxx.log.executor,    d. None of the above
+
+Q4. Class MqConfig belongs to Which package?
+  a. luxx.mq.message,    b. com.pluralsight,      c. luxx.mq.config,       d. None of the above
+
+Q5. Is there any multi-level inheritance?
+  a. Yes,        b. No
+
+Q6. Is there any generalization(inheritance)?
+  a. Yes,        b. No
+
+Q7. Class PropertiesUtil belongs to Which package?
+  a. luxx.mq.util,       b. luxx.mq.util.PropertiesUtil,  c. luxx.index.config,    d. None of the above
